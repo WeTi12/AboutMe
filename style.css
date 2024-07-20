@@ -97,4 +97,13 @@ body {
   transition: 145ms ease-in-out;
   text-align: center;
 }
-  
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  font-family: 'minecraft', sans-serif;
+  text-align: center;
+}
