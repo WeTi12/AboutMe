@@ -99,13 +99,14 @@ a:active {
 }
 
 .description{
-  margin: 8px;
+  margin-right: 8px;
   display: block;
   width: 50%;
 }
 
 .description-line{
-  margin: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   transition: ease-in-out 0.1s;
 }
 
