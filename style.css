@@ -4,6 +4,7 @@
 }
 
 body {
+  font-family: 'minecraft', sans-serif;
   margin: 0;
   display: flex;
   justify-content: center;
@@ -29,6 +30,19 @@ body {
   100% {
     background-position: 5% 5%;
   }
+}
+
+a:link { 
+  text-decoration: none; 
+} 
+a:visited { 
+  text-decoration: none; 
+} 
+a:hover { 
+  text-decoration: none; 
+} 
+a:active { 
+  text-decoration: none; 
 }
 
 .frame{
@@ -66,13 +80,39 @@ body {
 }
 
 .logo{
-  margin: 8px;
-  width: 32px;
+  margin: 16px;
+  width: 40px;
   transition: ease-in-out 0.1s;
 }
 
 .logo:hover{
-  width: 40px;
+  /* color: #21353b; */
+  filter: invert(13%) sepia(12%) saturate(2111%) hue-rotate(148deg) brightness(88%) contrast(81%);
+  transform: translate(0px, -4px);
+}
+
+.socials{
+  margin-left: 8px;
+  margin-right: 12px;
+  display: block;
+  width: 50%;
+}
+
+.description{
+  margin-right: 8px;
+  display: block;
+  width: 50%;
+}
+
+.description-line{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  transition: ease-in-out 0.1s;
+}
+
+.description-line:hover{
+  filter: invert(13%) sepia(12%) saturate(2111%) hue-rotate(148deg) brightness(88%) contrast(81%);
+  transform: scale(1.1);
 }
 
 .row{
@@ -85,7 +125,7 @@ body {
   position: absolute;
   justify-content: center;
   align-items: center;
-  color: rgba(255, 255, 255, 1);
+  color: rgb(91, 106, 119);
   text-decoration: none;
   font-size: 80px;
   font-family: 'minecraft', sans-serif;
@@ -104,6 +144,5 @@ body {
   bottom: 0;
   width: 100%;
   color: white;
-  font-family: 'minecraft', sans-serif;
   text-align: center;
 }
